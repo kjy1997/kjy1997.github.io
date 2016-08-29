@@ -1,0 +1,202 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron{
+	text-align: center;
+	background:#75B9BE;
+	color: white;
+  height: 510px;
+}
+
+.jumbotron h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  color: white;
+}
+.container{
+  color:#4A6670;
+}
+.container ul li a{
+  font-family: 'Open Sans', sans-serif;
+}
+.container h2{
+  text-align:center;
+  font-family: 'Pacifico', cursive;
+  color: #987284;
+  font-size: 55px;
+  margin-top: 70px;
+}
+.jumbotron .container{
+	text-align: center;
+}
+.social{
+	display: inline-block;
+  margin-bottom: 50px;
+}
+.jumbotron li{
+	float: left;
+	list-style-type: none;
+	padding-right: 50px;
+}
+
+.jumbotron li a{
+    opacity: .6;
+    background: transparent;
+    display: block;
+    font-size: 15px;
+    height: 36px;
+    width: 36px;
+    line-height: 34px;
+    margin: 0 0.1em 0.2em 0;
+    padding: 0;
+    text-align: center;
+}
+
+.About h4{
+	margin-top: 20px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background: #EED7C5;
+  color: black;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+  font-family: 'Noto Sans', sans-serif;
+}  
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: grey;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  color:blue;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #F45B69;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}
+
+.timeline time{
+  font-weight: bold;
+}
+
+.timeline {
+  color: white;
+}
+.progress{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 280px;
+}
+
+#projects ul li{
+  margin-right: 22px;
+  margin-left: 38px;
+}
+
+.email{
+  float: left;
+  margin-left:80px;
+  margin-top: -30px;
+}
+.email button{
+  margin-left: 430px;
+  margin-top: 30px;
+}
+.email h3{
+  margin-top:40px; 
+  margin-bottom: 30px;
+}
+.contactsec{
+  text-align: left;
+  margin-left: 730px;
+  @media (max-width: 991px) { 
+    .contactsec{
+      width:200px;
+      margin-left: 480px;
+    }
+    .email{
+      margin-left: -50px;
+    }
+   }
+  @media (max-width: 1199px) { ... }
+}
+
+.contactsec ul{
+  list-style-type: none;
+}
+
+.projects {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.projects li{
+  float: left;
+}
+
+
+
